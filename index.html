@@ -1,0 +1,133 @@
+<html>
+<head>
+  <meta charset=utf-8 />
+  <link href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" media="screen, projection" href="/luminous-master/dist/luminous-basic.css">
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+   <style>
+   .hero-animation 
+   {
+    width: 100%;
+    height: 50%;
+   }
+  body {
+    background-color: white; color: black;
+  }
+  video {
+    width: 100%;
+    height: 50%;
+  }
+  * { box-sizing: border-box; }
+body, figure, aside { margin: 0; }
+img { max-width: 100%; }
+
+body {
+  color: dark-gray;
+  font-family: Rancho, sans-serif;
+  text-align: center;
+}
+h1, h2 {
+  font-family: Rancho, cursive;
+  margin: 0.125em;
+}
+h1 {
+  font-size: 6em;
+  margin: 0.5em;
+  text-align: center;
+
+}
+h2 {
+  font-size: 4em;
+}
+}
+
+figure {
+  padding: 10px;
+}
+.zoom-in {
+  cursor: zoom-in;
+}
+.gallery-demo-wrapper {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+  margin-bottom: 36px;
+}
+
+.gallery-demo-wrapper li {
+  display: inline-block;
+  padding: 0 6px;
+}
+
+@media (min-width: 36em) {
+  figure {
+    display: block;
+    float: left;
+    width: 33.3333333333333%;
+    }
+  main {
+    float: left;
+    width: calc(100% - 12rem);
+  }
+  aside {
+    float: right;
+    width: 12rem;
+    padding: 0;
+    margin: 0;
+    font-size: 0.875em;
+    }
+  aside h2 {
+    margin-left: 0.5em;
+    margin-top: -0.5em;
+  }
+}
+</style>
+  </head>
+<body>
+  <h1>Test Video Page
+  </h1>
+</style>
+<section class="hero">
+<div class="hero-animation">
+<video style="width: 600px; height: 200px;" id="zeek-video" class="video-js vjs-fluid vjs-default-skin" controls preload="auto" data-setup='{}'>
+  <source
+     src="https://stream.mux.com/GhxDyDTZ6OhGGRAgS00zyZLmIi2uC00VYn.m3u8"
+     type="application/x-mpegURL">
+</video>
+</div>
+</section>
+
+<main>
+
+<figure class="simple-demo zoom-in" href="https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=RWxlZ2FudA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdmluZXlhcmQuanBnP21hc2s9ZWxsaXBzZSZmaXQ9Y3JvcCZ1c209MjAmY3JvcD1mYWNlcyxlZGdlcyZmbT1wbmc&fit=crop&h=1000&w=1000&usm=10&chromasub=444&fm=png&q=80&markw=.7"><img src="https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=RWxlZ2FudA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdmluZXlhcmQuanBnP21hc2s9ZWxsaXBzZSZmaXQ9Y3JvcCZ1c209MjAmY3JvcD1mYWNlcyxlZGdlcyZmbT1wbmc&fit=crop&h=1000&w=1000&usm=10&chromasub=444&fm=png&q=80&markw=.7" alt="Elegant" srcset="https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=RWxlZ2FudA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdmluZXlhcmQuanBnP21hc2s9ZWxsaXBzZSZmaXQ9Y3JvcCZ1c209MjAmY3JvcD1mYWNlcyxlZGdlcyZmbT1wbmc&fit=crop&h=400&w=400&usm=10&chromasub=444&fm=png&q=80&markw=.7 400w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=RWxlZ2FudA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdmluZXlhcmQuanBnP21hc2s9ZWxsaXBzZSZmaXQ9Y3JvcCZ1c209MjAmY3JvcD1mYWNlcyxlZGdlcyZmbT1wbmc&fit=crop&h=450&w=450&usm=10&chromasub=444&fm=png&q=80&markw=.7 450w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=RWxlZ2FudA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdmluZXlhcmQuanBnP21hc2s9ZWxsaXBzZSZmaXQ9Y3JvcCZ1c209MjAmY3JvcD1mYWNlcyxlZGdlcyZmbT1wbmc&fit=crop&h=500&w=500&usm=10&chromasub=444&fm=png&q=80&markw=.7 500w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=RWxlZ2FudA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdmluZXlhcmQuanBnP21hc2s9ZWxsaXBzZSZmaXQ9Y3JvcCZ1c209MjAmY3JvcD1mYWNlcyxlZGdlcyZmbT1wbmc&fit=crop&h=550&w=550&usm=10&chromasub=444&fm=png&q=80&markw=.7 550w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=RWxlZ2FudA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdmluZXlhcmQuanBnP21hc2s9ZWxsaXBzZSZmaXQ9Y3JvcCZ1c209MjAmY3JvcD1mYWNlcyxlZGdlcyZmbT1wbmc&fit=crop&h=700&w=700&usm=10&chromasub=444&fm=png&q=80&markw=.7 700w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=RWxlZ2FudA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdmluZXlhcmQuanBnP21hc2s9ZWxsaXBzZSZmaXQ9Y3JvcCZ1c209MjAmY3JvcD1mYWNlcyxlZGdlcyZmbT1wbmc&fit=crop&h=850&w=850&usm=10&chromasub=444&fm=png&q=80&markw=.7 850w" sizes="calc(33vw - 4em)"></figure><!--
+
+--><figure class="simple-demo zoom-in" href="https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=Q296eQ&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdHVubmVsLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=1000&w=1000&usm=10&chromasub=444&fm=png&q=80&markw=.7"><img src="https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=Q296eQ&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdHVubmVsLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=1000&w=1000&usm=10&chromasub=444&fm=png&q=80&markw=.7" alt="Cozy" srcset="https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=Q296eQ&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdHVubmVsLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=400&w=400&usm=10&chromasub=444&fm=png&q=80&markw=.7 400w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=Q296eQ&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdHVubmVsLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=450&w=450&usm=10&chromasub=444&fm=png&q=80&markw=.7 450w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=Q296eQ&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdHVubmVsLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=500&w=500&usm=10&chromasub=444&fm=png&q=80&markw=.7 500w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=Q296eQ&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdHVubmVsLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=550&w=550&usm=10&chromasub=444&fm=png&q=80&markw=.7 550w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=Q296eQ&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdHVubmVsLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=700&w=700&usm=10&chromasub=444&fm=png&q=80&markw=.7 700w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=Q296eQ&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvdHVubmVsLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=850&w=850&usm=10&chromasub=444&fm=png&q=80&markw=.7 850w" sizes="calc(33vw - 4em)"></figure><!--
+
+--><figure class="simple-demo zoom-in" href="https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=SGlzdG9yaWNhbA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvZ3JleWNvdWNoLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=1000&w=1000&usm=10&chromasub=444&fm=png&q=80&markw=.7"><img src="https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=SGlzdG9yaWNhbA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvZ3JleWNvdWNoLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=1000&w=1000&usm=10&chromasub=444&fm=png&q=80&markw=.7" alt="Historical" srcset="https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=SGlzdG9yaWNhbA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvZ3JleWNvdWNoLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=400&w=400&usm=10&chromasub=444&fm=png&q=80&markw=.7 400w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=SGlzdG9yaWNhbA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvZ3JleWNvdWNoLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=450&w=450&usm=10&chromasub=444&fm=png&q=80&markw=.7 450w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=SGlzdG9yaWNhbA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvZ3JleWNvdWNoLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=500&w=500&usm=10&chromasub=444&fm=png&q=80&markw=.7 500w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=SGlzdG9yaWNhbA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvZ3JleWNvdWNoLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=550&w=550&usm=10&chromasub=444&fm=png&q=80&markw=.7 550w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=SGlzdG9yaWNhbA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvZ3JleWNvdWNoLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=700&w=700&usm=10&chromasub=444&fm=png&q=80&markw=.7 700w, https://tom.imgix.net/house.jpg?txtlineclr=ff0000&txtline=.5&vib=20&sat=60&border=10%2C73ff0000&txtsize=48&txtpad=80&txtalign=center&txtfont64=SGVsdmV0aWNhTmV1ZS1UaGlu&txtclr=fff&txtfit=max&txt64=SGlzdG9yaWNhbA&blur=40&markalign=center&marky=60&mark64=aHR0cHM6Ly90b20uaW1naXgubmV0L3plZWsvZ3JleWNvdWNoLmpwZz9tYXNrPWVsbGlwc2UmZml0PWNyb3AmdXNtPTIwJmNyb3A9ZmFjZXMsZWRnZXMmZm09cG5n&fit=crop&h=850&w=850&usm=10&chromasub=444&fm=png&q=80&markw=.7 850w" sizes="calc(33vw - 4em)"></figure></main>
+    <script src="https://unpkg.com/video.js@7.1.0/dist/video.js"></script>
+    <script src="https://unpkg.com/videojs-contrib-hls@5.14.1/dist/videojs-contrib-hls.js"></script>
+    <script>
+var player = videojs('zeek-video');
+player.play();
+ width([600]);
+ height([200]);
+</script>
+<script src="/luminous-master/dist/Luminous.js"></script>
+<script>
+    var allImages = document.querySelectorAll('.simple-demo');
+
+allImages.forEach(function(image) {
+    new Luminous(image);
+});
+
+new LuminousGallery(document.querySelectorAll('.gallery-demo'), {}, {
+  caption: function (trigger) {
+    return trigger.querySelector('img').getAttribute('alt');
+  }
+});
+  </script>
+</body>
+</html>
